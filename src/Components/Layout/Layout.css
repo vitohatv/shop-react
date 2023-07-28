@@ -1,0 +1,34 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background: firebrick;
+    padding: 16px;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-link {
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    transition: 0.4s all ease-in;
+}
+.header-link:hover {
+    color: #b9b7b7;
+    transition: 0.4s all ease-out;
+}
+.header-link-cart {
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    margin-left: 60px;
+    transition: 0.4s all ease-in;
+}
+.header-link-cart:hover {
+    color: #b9b7b7;
+    transition: 0.4s all ease-out;
+}
