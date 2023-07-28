@@ -1,0 +1,33 @@
+.main-title {
+    font-size: 14px;
+    color: #6f6e7e;
+    text-decoration: none;
+    line-height: 87.69%;
+    margin-top: 26px;
+    margin-bottom: 30px;
+}
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-link-check-store {
+    color: #b91d58;
+    text-decoration: none;
+    user-select: none;
+    transition: 0.4s all ease-in;
+}
+.main-link-check-store:hover {
+    color: #e7548b;
+    transition: 0.4s all ease-out;
+}
+.main-link-check-store::after {
+    content: ">>";
+}
+.main-banners {
+    margin-top: 25px;
+}
+.banner-pets {
+    margin: 0 auto;
+    display: block;
+}
